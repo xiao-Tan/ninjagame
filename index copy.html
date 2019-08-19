@@ -1,0 +1,19 @@
+<html>
+<body>
+	<div id='background'>
+        <div id='character' style='position:absolute; top:100px; left:450px; background-image: url("img/down1.png"); width:59px; height:86px;'></div>
+    </div>
+    <script type="text/javascript">
+	    //3,Print one, return another
+        function printAndReturn(arr) {
+            for (var i = 1; i < arr.length; i++) {
+                if (arr[i] % 2 != 0) {
+                    return arr[i];
+                }
+            }
+        }
+
+        printAndReturn([2, 4, 6, 9, 8, 9]);
+    </script>
+</body>
+</html>
